@@ -1,0 +1,698 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "voice assistant",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "greetings",
+          "slots": [],
+          "samples": [
+            "what is up",
+            "how are you",
+            "how are you swick",
+            "swick how are you"
+          ]
+        },
+        {
+          "name": "thanks",
+          "slots": [],
+          "samples": [
+            "thanks",
+            "you are welcome",
+            "nice to meet you",
+            "thanks swick"
+          ]
+        },
+        {
+          "name": "restart",
+          "slots": [],
+          "samples": [
+            "recapture",
+            "restart swick",
+            "swick restart please",
+            "ok restart",
+            "okay restart"
+          ]
+        },
+        {
+          "name": "dashboard",
+          "slots": [],
+          "samples": [
+            "swick show to me the dashboard",
+            "show the dashboard",
+            "show dashborad please",
+            "swick show dashboard",
+            "swick open the dashbord please"
+          ]
+        },
+        {
+          "name": "stage_gabel_english",
+          "slots": [],
+          "samples": [
+            "How many phases is there in the Jubail system",
+            "How many stages in there in the Jubail system",
+            "How many phases are there in Jubail system",
+            "How many stages are there in Jubail system",
+            "How many stage is there in Jubail system"
+          ]
+        },
+        {
+          "name": "info",
+          "slots": [],
+          "samples": [
+            "why did you came to world",
+            "why did you come to work",
+            "why are you here",
+            "why are you here swick"
+          ]
+        },
+        {
+          "name": "information",
+          "slots": [],
+          "samples": [
+            "who are you",
+            "tell me about swag",
+            "tell me about this skill",
+            "why this skill is here",
+            "tell me information about this skill",
+            "what is your name"
+          ]
+        },
+        {
+          "name": "generalAsk",
+          "slots": [],
+          "samples": [
+            "Do you have any errors today",
+            "do you have any errors",
+            "what are errors",
+            "what are the errors",
+            "what are the issues"
+          ]
+        },
+        {
+          "name": "specific_stage_month",
+          "slots": [
+            {
+              "name": "stage",
+              "type": "STAGE"
+            }
+          ],
+          "samples": [
+            "What is the production quantity in {stage} stage in the month",
+            "what the production quantity in {stage} stage in the month",
+            "what the production quantity in {stage} stage in month",
+            "What is the production quantity in {stage} stage in month"
+          ]
+        },
+        {
+          "name": "gabil_quatity_per_area_month",
+          "slots": [
+            {
+              "name": "new_stage",
+              "type": "AREA"
+            }
+          ],
+          "samples": [
+            "what is the production quantity in {new_stage} unit in month",
+            "What is the total production in {new_stage} unit in month",
+            "what ara the total requests for {new_stage} unit in the month",
+            "what is the total requests for {new_stage} unit in the month",
+            "What is the total production in {new_stage} unit in the month",
+            "what is the total requests in {new_stage} unit in the month",
+            "What is the total production for {new_stage} in the month",
+            "What is the total demand for the Jubail system in {new_stage}",
+            "What is the total requests for the Jubail system {new_stage}"
+          ]
+        },
+        {
+          "name": "num_areas",
+          "slots": [],
+          "samples": [
+            "what are the number of units in system",
+            "wht are the number of units in the system",
+            "what is the number of units in system",
+            "what is the number of units in the system",
+            "what is the number of unit in system"
+          ]
+        },
+        {
+          "name": "num_of_enterprise",
+          "slots": [],
+          "samples": [
+            "what is the total production of enterprise",
+            "what is the total production of the enterprise"
+          ]
+        },
+        {
+          "name": "gabel_production_quatity",
+          "slots": [],
+          "samples": [
+            "What is the production quantity in angel bail",
+            "What is the production quantity in jubail",
+            "What is the production quantity in zuber",
+            "What is the production quantity in job",
+            "what is the total production for jubail system"
+          ]
+        },
+        {
+          "name": "unit_per_day_english",
+          "slots": [
+            {
+              "name": "day",
+              "type": "DAY"
+            },
+            {
+              "name": "new_unit",
+              "type": "AREA"
+            }
+          ],
+          "samples": [
+            "what is the total production in {new_unit} unit in {day}",
+            "what is the total production in {new_unit}  at {day}"
+          ]
+        },
+        {
+          "name": "specific_unit_problem",
+          "slots": [
+            {
+              "name": "new_stage",
+              "type": "AREA"
+            }
+          ],
+          "samples": [
+            "what is the issue in {new_stage} unit",
+            "what is issue in {new_stage}",
+            "what is the issue in {new_stage} ",
+            "what are the problems in {new_stage} unit",
+            "what are problems in {new_stage}",
+            "what are the problems in {new_stage}",
+            "what is the problems in {new_stage}",
+            "what is problem in {new_stage}",
+            "what is the problem in {new_stage}",
+            "do you have any problem in {new_stage}"
+          ]
+        },
+        {
+          "name": "number_of_out_units",
+          "slots": [
+            {
+              "name": "new_day",
+              "type": "DAY"
+            }
+          ],
+          "samples": [
+            "what are the number of failure units in {new_day}",
+            "What is the number of outgoing units in {new_day}"
+          ]
+        },
+        {
+          "name": "generaltime",
+          "slots": [],
+          "samples": [
+            "what is the time for now",
+            "what is time for now",
+            "what is the time now",
+            "what is the time",
+            "what is time now",
+            "what is time",
+            "what time now",
+            "what time"
+          ]
+        },
+        {
+          "name": "generaldate",
+          "slots": [],
+          "samples": [
+            "what is date for today",
+            "what is the date for today",
+            "the date",
+            "what is the date now",
+            "what is the date",
+            "what is date no",
+            "what is date",
+            "what date now",
+            "what date"
+          ]
+        },
+        {
+          "name": "power_production_english",
+          "slots": [
+            {
+              "name": "dayp",
+              "type": "DAY"
+            }
+          ],
+          "samples": [
+            "power production in {dayp}",
+            "what is power production in {dayp}",
+            "what is the power production in {dayp}"
+          ]
+        },
+        {
+          "name": "stock_water_english",
+          "slots": [
+            {
+              "name": "dayt",
+              "type": "DAY"
+            }
+          ],
+          "samples": [
+            "water stock in {dayt}",
+            "the water stock in {dayt}",
+            "what is the water stock in {dayt}",
+            "what is water stock in {dayt}"
+          ]
+        },
+        {
+          "name": "actual_export_english",
+          "slots": [
+            {
+              "name": "dayl",
+              "type": "DAY"
+            }
+          ],
+          "samples": [
+            "the actual export in {dayl}",
+            "actual export in {dayl}",
+            "what is the actual export in {dayl}",
+            "what is actual export in {dayl}"
+          ]
+        },
+        {
+          "name": "num_of_units_per_stage",
+          "slots": [
+            {
+              "name": "stagep",
+              "type": "STAGE"
+            }
+          ],
+          "samples": [
+            "number of units in {stagep} stage",
+            "the number of units in {stagep} stage",
+            "what is number of units in {stagep} stage",
+            "what is the number of units in {stagep} stage"
+          ]
+        },
+        {
+          "name": "unit_problem_english",
+          "slots": [],
+          "samples": [
+            "give me the alerts",
+            "what is the problem",
+            "what are the failures",
+            "what are the failures today",
+            "what are the problems today",
+            "what are the problems ",
+            "what are the alerts today",
+            "what are the alerts"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "RO"
+              }
+            },
+            {
+              "name": {
+                "value": "MSF-Phase2"
+              }
+            }
+          ],
+          "name": "STAGE"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "roro m"
+              }
+            },
+            {
+              "name": {
+                "value": "roro a"
+              }
+            },
+            {
+              "name": {
+                "value": "desal 7"
+              }
+            },
+            {
+              "name": {
+                "value": "desal 5"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - M"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal40"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal39"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal38"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal37"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal36"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal35"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal34"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal33"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal32"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal31"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal30"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal29"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal28"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal27"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal26"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - Q"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - P"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - N"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - J"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - L"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - K"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - H"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - E"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - G"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - F"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - D"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - C"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - B"
+              }
+            },
+            {
+              "name": {
+                "value": "RO\\RO - A"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal25"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal24"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal23"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal22"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal21"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal20"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal19"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal18"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal17"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal16"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal15"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal14"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal13"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal12"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal11"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal10"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal09"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal08"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal07"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal06"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal05"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal04"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal03"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal02"
+              }
+            },
+            {
+              "name": {
+                "value": "Desal01"
+              }
+            }
+          ],
+          "name": "AREA"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "152022"
+              }
+            },
+            {
+              "name": {
+                "value": "452022"
+              }
+            },
+            {
+              "name": {
+                "value": "4may2022"
+              }
+            },
+            {
+              "name": {
+                "value": "3may2022"
+              }
+            },
+            {
+              "name": {
+                "value": "2may2022"
+              }
+            },
+            {
+              "name": {
+                "value": "1may2022"
+              }
+            }
+          ],
+          "name": "DAY"
+        }
+      ]
+    }
+  },
+  "version": "80"
+}
